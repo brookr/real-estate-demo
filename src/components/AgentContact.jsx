@@ -10,11 +10,25 @@ const AgentContact = () => {
       </div>
       <div className="w-full md:w-2/3 md:pl-8">
         <h2 className="text-3xl font-bold mb-4">Contact Your Agent</h2>
-        <p className="text-xl mb-2"><strong>Ashley Dolan</strong></p>
-        <p className="text-lg mb-2 flex items-center"><FaMapMarkerAlt className="mr-2 text-purple-700" />West Seattle</p>
-        <p className="text-lg mb-2 flex items-center"><FaPhone className="mr-2 text-purple-700" />Office: 206-932-4500 x 6648</p>
-        <p className="text-lg mb-2 flex items-center"><FaPhone className="mr-2 text-purple-700" />Direct: 206-953-9063</p>
-        <p className="text-lg mb-4 flex items-center"><FaEnvelope className="mr-2 text-purple-700" /> <a href="mailto:ashleydolan@bhhsnwrealestate.com" className="text-purple-600 hover:underline">ashleydolan@bhhsnwrealestate.com</a></p>
+        <p className="text-xl mb-2"><strong>Jordan Smith</strong></p>
+        <p className="text-lg mb-2 flex items-center">
+          <FaMapMarkerAlt className="mr-2 text-purple-700" />
+          Midtown
+        </p>
+        <p className="text-lg mb-2 flex items-center">
+          <FaPhone className="mr-2 text-purple-700" />
+          Office: 555-123-4567
+        </p>
+        <p className="text-lg mb-2 flex items-center">
+          <FaPhone className="mr-2 text-purple-700" />
+          Direct: 555-987-6543
+        </p>
+        <p className="text-lg mb-4 flex items-center">
+          <FaEnvelope className="mr-2 text-purple-700" />
+          <a href="mailto:jordan.smith@example.com" className="text-purple-600 hover:underline">
+            jordan.smith@example.com
+          </a>
+        </p>
         <button className="bg-purple-700 text-white py-2 px-6 rounded-full shadow hover:bg-purple-800 transition duration-300">
           Send a Message
         </button>

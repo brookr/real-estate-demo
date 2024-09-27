@@ -5,8 +5,8 @@ const PropertyList = () => {
   const properties = [
     {
       mlsNumber: '2145126',
-      address: '72923 RE Undisclosed',
-      city: 'Seattle, WA, 98178',
+      address: '5678 Oak Street',
+      city: 'Anytown, USA, 12345',
       status: 'Active',
       daysOnMarket: 36,
       yearBuilt: 1946,
@@ -14,7 +14,8 @@ const PropertyList = () => {
       bathrooms: '2/0/0',
       sqFt: 1020,
       listPrice: '$850,000',
-      description: `An opportunity to own an existing adult family home for less than 1 Million! This property has been in operation for 18 years...`,
+      description:
+        'An opportunity to own a charming family home in a quiet neighborhood. This property has been well-maintained for decades...',
       image: 'https://via.placeholder.com/400x300',
     },
     // Add other properties similarly...
@@ -29,14 +30,30 @@ const PropertyList = () => {
             <img src={property.image} alt={property.address} className="rounded-lg shadow-md" />
             <div>
               <h3 className="text-2xl font-semibold mb-2">{property.address}</h3>
-              <p className="text-lg mb-1"><strong>MLS Number:</strong> {property.mlsNumber}</p>
-              <p className="text-lg mb-1"><strong>Status:</strong> {property.status}</p>
-              <p className="text-lg mb-1"><strong>Days on Market:</strong> {property.daysOnMarket}</p>
-              <p className="text-lg mb-1"><strong>List Price:</strong> {property.listPrice}</p>
-              <p className="text-lg mb-1"><strong>Bedrooms:</strong> {property.bedrooms}</p>
-              <p className="text-lg mb-1"><strong>Bathrooms:</strong> {property.bathrooms}</p>
-              <p className="text-lg mb-1"><strong>Year Built:</strong> {property.yearBuilt}</p>
-              <p className="text-lg mb-1"><strong>Square Feet:</strong> {property.sqFt}</p>
+              <p className="text-lg mb-1">
+                <strong>MLS Number:</strong> {property.mlsNumber}
+              </p>
+              <p className="text-lg mb-1">
+                <strong>Status:</strong> {property.status}
+              </p>
+              <p className="text-lg mb-1">
+                <strong>Days on Market:</strong> {property.daysOnMarket}
+              </p>
+              <p className="text-lg mb-1">
+                <strong>List Price:</strong> {property.listPrice}
+              </p>
+              <p className="text-lg mb-1">
+                <strong>Bedrooms:</strong> {property.bedrooms}
+              </p>
+              <p className="text-lg mb-1">
+                <strong>Bathrooms:</strong> {property.bathrooms}
+              </p>
+              <p className="text-lg mb-1">
+                <strong>Year Built:</strong> {property.yearBuilt}
+              </p>
+              <p className="text-lg mb-1">
+                <strong>Square Feet:</strong> {property.sqFt}
+              </p>
               <p className="text-lg mt-4">{property.description}</p>
               <button className="mt-4 bg-purple-700 text-white py-2 px-6 rounded-full shadow hover:bg-purple-800 transition duration-300">
                 View Details

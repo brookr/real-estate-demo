@@ -1,11 +1,11 @@
 // src/App.jsx
 import React from 'react';
 import Header from './components/Header';
+import WelcomeMessage from './components/WelcomeMessage';
 import PropertyDetails from './components/PropertyDetails';
 import MarketTrends from './components/MarketTrends';
-import AgentContact from './components/AgentContact';
-import WelcomeMessage from './components/WelcomeMessage';
 import PropertyList from './components/PropertyList';
+import AgentContact from './components/AgentContact';
 
 function App() {
   return (

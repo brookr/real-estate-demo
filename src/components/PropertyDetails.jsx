@@ -6,7 +6,7 @@ const PropertyDetails = () => {
     <section className="bg-white shadow-lg rounded-lg p-8 mb-12">
       <div className="grid md:grid-cols-2 gap-8">
         <div>
-          <h2 className="text-3xl font-bold mb-4">5127 S Fountain St</h2>
+          <h2 className="text-3xl font-bold mb-4">1234 Maple Drive</h2>
           <ul className="text-lg leading-relaxed">
             <li><strong>Avg. Days on Market:</strong> 63</li>
             <li><strong>Newest Listing:</strong> 07/25/2024</li>
